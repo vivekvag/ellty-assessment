@@ -28,7 +28,9 @@ function App() {
       setSelectedPages([...selectedPages, id]);
     }
   };
-
+  const handleDone = () => {
+    console.log('Selected Pages:', selectedPages);
+  };
   return (
     <div className="options">
       <li className="option">
@@ -57,7 +59,9 @@ function App() {
       </div>
       <hr className="hr" />
       <div className="option">
-        <div className="select-btn"> Done </div>
+        <div className="select-btn" onClick={handleDone}>
+          Done
+        </div>
       </div>
     </div>
   );
