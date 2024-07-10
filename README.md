@@ -6,3 +6,4 @@
 2. Select/deselect individual pages.
 3. Select/deselect all pages with a single checkbox.
 4. Log the selected pages to the console upon clicking the "Done" button.
+5. Added Eslint and prettier for code formatting and consistency.
